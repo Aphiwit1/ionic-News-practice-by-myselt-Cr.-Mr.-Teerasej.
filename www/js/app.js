@@ -33,7 +33,7 @@ var app = angular.module('starter', ['ionic'])
 
     $stateProvider.state('detail',{
       url: '/detail',
-      templateUrl: 'views/Detail.html'
+      templateUrl: 'views/Detail.html',controller:'DetailController'
     })
 
     $urlRouterProvider.otherwise('/home');
